@@ -1,7 +1,7 @@
 $(function(){
 	// Settings
 	// timespan
-	var delay_seconds = 3600; 
+	var delay_seconds = 10;
 
 	// target url
 /*
@@ -72,7 +72,7 @@ $(function(){
 		  type: "basic",
 		  title: "Stock Wathcher for COMIC ZIN",
 		  message: "「 " + name + " 」が購入可能になりました",
-		  iconUrl: "icon128.png"
+		  iconUrl: "icon/icon128.png"
 		}
 		chrome.notifications.create(name, opt);
 	}
